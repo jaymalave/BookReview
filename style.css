@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: black;
+    scroll-snap-align: start;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.one {
+    background: rgb(36, 164, 138);
+}
+.two {
+    background: lightslategray;
+}
+.three {
+    background: rgb(211, 79, 79);
+}
+.four {
+    background: lightsalmon
+}
+
+.book {
+    display: contents;
+}
+
+.title {
+    justify-content: end;
+}
+
+h1 {
+    margin-top: 25%;
+    font-size: 10vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+h3 {
+    text-align: center;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4vh;
+}
+
+.content {
+    display: inline-block;
+}
+
+.review {
+    height: 20vh;
+    width: 120vh;
+    font-family: cursive;
+
+}
