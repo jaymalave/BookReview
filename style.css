@@ -61,6 +61,6 @@ h3 {
 .review {
     height: 20vh;
     width: 120vh;
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
 
 }
